@@ -49,4 +49,4 @@ RUN  update-rc.d logstash defaults 96 9
 
 ADD conf/elasticsearch_mapping.json /opt/logstash/
 ADD conf/bash.bashrc /etc
-CMD -p 80:80 -p 8000:8000
+EXPOSE 80:80 8000:8000

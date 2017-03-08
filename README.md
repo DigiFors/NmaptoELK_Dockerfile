@@ -8,3 +8,5 @@ The username is kibanaadmin and the password is Start23!
 You can change this by editing htpasswd.users which is located at /etc/nginx/htpasswd.users in your Dockercontainer.
 
 Example nmap-command: nmap -sP example.net -oX - | curl -H "x-nmap-target: example.net" http://<Container-IP>:8000 -d @-
+
+by HH and CK
